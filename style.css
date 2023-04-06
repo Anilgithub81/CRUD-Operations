@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container form {
+  width: 500px;
+  padding: 30px;
+  height: 210px;
+  border: 1px solid #111;
+  color: whitesmoke;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.container form input {
+  padding: 10px 20px;
+  display: block;
+  width: 430px;
+  margin: 15px 0;
+  outline: none;
+  border: 1px solid #111;
+  border-radius: 10px;
+}
+
+label {
+  color: #111;
+}
+
+input[type="submit"] {
+  background: rgb(43, 105, 199);
+  
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#show {
+  width: 435px;
+  padding: 5px;
+  
+  }
+
+.newData {
+  padding: 10px 20px;
+  padding: 10px;
+  border-radius: 10px;
+
+  color: #111;
+  margin: 10px 0;
+  border: 1px solid #111;
+}
+
+.newData button,
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100px;
+  font-size: 17px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(107, 8, 86);
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+span {
+  color: rgb(238, 19, 19);
+}
+
+
